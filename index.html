@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+     
+        <ul>
+            <li class="clickme"><a href="javascript:void();" data-tag="one" class="activelink">ONE</a></li>
+            <li class="clickme"><a href="javascript:void();" data-tag="two">TWO</a></li>
+            <li class="clickme"><a href="javascript:void();" data-tag="three">THREE</a></li>
+        </ul>    
+        <div style="clear: both;"></div>    
+        <div id="container">
+            <div class="list" id="one">ONE</div>
+            <div class="list hide" id="two">TWO</div>
+            <div class="list hide" id="three">THREE</div>
+        </div>     
+
+    </main>
+    <script type="module" src="./index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  </body>
+</html>

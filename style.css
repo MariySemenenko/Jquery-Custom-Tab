@@ -1,0 +1,26 @@
+.active{
+    display: block;
+}
+.hide{
+    display: none;
+}
+
+ul{
+    padding: 0px;
+    
+}
+ul li{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.list{
+    width: 100px;
+    height: 100px;
+    background: #EEE;
+    padding: 10px;        
+}
+.activelink{
+    color: red;        
+}
