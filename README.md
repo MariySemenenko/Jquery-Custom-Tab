@@ -37,11 +37,13 @@ git remote add origin https://github.com/MariySemenenko/Jquery-Custom-Tab.git
 git push -u origin main
 ```
 
-## Comit
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git push -u origin main
+## Commit  
+```sh
+git add .  
+git commit -m "Initial commit"  
+git branch -M main  
+git push -u origin main  
+
 
 ## 📞 Support
 If you have any questions or suggestions, feel free to open an **issue** or create a **pull request**. 🚀
